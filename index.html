@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArchitectSAF · Professional 2D CAD</title>
     
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -70,10 +71,8 @@
                     <div class="menu-option" data-action="save"><i class="fas fa-save"></i> Save <span class="shortcut">Ctrl+S</span></div>
                     <div class="menu-option" data-action="save-as"><i class="fas fa-save"></i> Save As... <span class="shortcut">Ctrl+Shift+S</span></div>
                     <div class="menu-divider"></div>
-                    <div class="menu-option" data-action="export-dxf"><i class="fas fa-file-export"></i> Export DXF</div>
                     <div class="menu-option" data-action="export-svg"><i class="fas fa-file-image"></i> Export SVG</div>
                     <div class="menu-option" data-action="export-png"><i class="fas fa-camera"></i> Export PNG</div>
-                    <div class="menu-option" data-action="export-pdf"><i class="fas fa-file-pdf"></i> Export PDF</div>
                     <div class="menu-divider"></div>
                     <div class="menu-option" data-action="print"><i class="fas fa-print"></i> Print <span class="shortcut">Ctrl+P</span></div>
                     <div class="menu-divider"></div>
@@ -177,6 +176,8 @@
         
         <!-- Right side: Tools -->
         <div class="header-right">
+            
+            <div id="wonderchat-searchbar"></div>
             <!-- Undo/Redo -->
             <div class="history-group">
                 <button id="btn-undo" class="history-btn" title="Undo (Ctrl+Z)">
@@ -684,4 +685,18 @@
 
 <script src="architectsaf_cad.js"></script>
 </body>
+<script>
+(function () {
+  window.wonderchatSettings = {
+    id: "cmq2m20vu0hqxurh9xaxfu7f0",
+    address: "app.wonderchat.io",
+    widgetSize: "normal",
+    widgetButtonSize: "normal"
+  };
+  var s = document.createElement("script");
+  s.src = "https://app.wonderchat.io/scripts/wonderchat-seo.js";
+  s.defer = true;
+  document.body.appendChild(s);
+})();
+</script>
 </html>
